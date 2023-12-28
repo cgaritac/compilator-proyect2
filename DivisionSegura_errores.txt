@@ -1,0 +1,286 @@
+1   
+2    
+3     
+4      
+5     public   class   DivisionSegura   {  
+6       
+7       static Scanner sc = new Scanner(System.in);
+    Error10: El comando Scanner debe ir después del main.
+8   
+9       public  static   void    main   (String    args   [ ]   )    {   
+10  
+11      inicio  del  programa    
+    Error35: Comando Java inválido.
+12      /  inicio  del  programa  
+    Error1: El comentario debe comenzar con '//' en la línea.
+13      / /  inicio   del   programa  
+    Error1: El comentario debe comenzar con '//' en la línea.
+14      //      inicio    del    programa    
+15  
+16      EStatic scanner scc : New  scanner  system  In   
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+17      Static scanner scc : New  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+18      static scanner scc : New  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+19      static  Scanner scc : New  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+20      static  Scanner sc : New  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+21      static  Scanner sc = New  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+22      static  Scanner sc = new  scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+23      static  Scanner sc = new  Scanner  system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+24      static  Scanner sc = new  Scanner ( system  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+25      static  Scanner sc = new  Scanner ( System  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+26      static  Scanner sc = new  Scanner ( System.  In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+27      static  Scanner sc = new  Scanner ( System.In   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+28      static  Scanner sc = new  Scanner ( System.in   ;
+    Error9: La sintaxis del comando Scanner para entrada de datos no es correcto.
+29      static  Scanner sc = new  Scanner ( System.in )  ;
+30  
+31  
+32      static Scanner sc = new Scanner(System.in);
+    Error11: El comando Scanner ya fue declarado.
+33  
+34      
+35  
+36  
+37      IInt    9x-1 $
+    Error12: El tipo de dato definido es incorrecto.
+    Error2: El identificador de la variable debe comenzar con una letra.
+    Error3: El identificador de la variable posee caracteres no validos, solamente se permiten letras, números y los símbolos '_' y '$'.
+    Error6: El identificador de la variable debe terminar con ';'.
+38      IInt    9x-1 $ ;  
+    Error12: El tipo de dato definido es incorrecto.
+    Error2: El identificador de la variable debe comenzar con una letra.
+    Error5: El identificador de la variable no puede poseer espacios ni blancos, solamente se permiten letras, números y los símbolos '_' y '$'.
+39      Int    9x-1 $ ;  
+    Error12: El tipo de dato definido es incorrecto.
+    Error2: El identificador de la variable debe comenzar con una letra.
+    Error5: El identificador de la variable no puede poseer espacios ni blancos, solamente se permiten letras, números y los símbolos '_' y '$'.
+40      int    9x-1 $ ;  
+    Error2: El identificador de la variable debe comenzar con una letra.
+    Error5: El identificador de la variable no puede poseer espacios ni blancos, solamente se permiten letras, números y los símbolos '_' y '$'.
+41      int    x-1 $ ;  
+    Error5: El identificador de la variable no puede poseer espacios ni blancos, solamente se permiten letras, números y los símbolos '_' y '$'.
+42      int    x_1 $ ;  
+    Error5: El identificador de la variable no puede poseer espacios ni blancos, solamente se permiten letras, números y los símbolos '_' y '$'.
+43      int    x_1$ ;  
+44  
+45      int   boolean ;  
+    Error4: El identificador de la variable no es válido por coincidir con una palabra reservada.
+46  
+47      static Scanner sc = new Scanner(System.in);
+    Error11: El comando Scanner ya fue declarado.
+48  
+49      int x_1$;
+    Error7: El identificador de la variable ya existente en la línea.
+50  
+51      int x;
+52      int x;
+    Error7: El identificador de la variable ya existente en la línea.
+53  
+54      int y;
+55      int z;
+56  
+57      int   y   ;
+    Error7: El identificador de la variable ya existente en la línea.
+58  
+59      int while;
+    Error4: El identificador de la variable no es válido por coincidir con una palabra reservada.
+60  
+61      char c;
+62  
+63      int num;
+64  
+65      long
+    Error13: Debe existir al menos una variable declarada para el tipo de dato.
+66  
+67      7x-10%  :=  12  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+    Error17: Falta el ';' al final.
+68      7x-10%  :=  12;  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+69      x-10%  :=  12;  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+70      x_10%  :=  12;  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+71      x_10  :=  12;  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+72      x_1$  :=  12;  
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+73      x_1$  =  12;  
+74  
+75      x_1$3  :  12;
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+76  
+77      x_1$  =  c;  
+    Error16: Hay variables a la derecha del igual cuyo tipo no coincide con la variable a la izquierda del igual.
+78  
+79      x_1$  =   x  +  y  +  z  +  c;  
+    Error16: Hay variables a la derecha del igual cuyo tipo no coincide con la variable a la izquierda del igual.
+80  
+81      x_1$  =   x  +  y  +  z  +  c ; 
+    Error16: Hay variables a la derecha del igual cuyo tipo no coincide con la variable a la izquierda del igual.
+82  
+83      x_1$  =   x  +  y  +  z; 
+84  
+85      x_1$  =   x  +  y  +  z ; 
+86  
+87      x = 12;
+88      y = 2;
+89      z = 0;
+90  
+91         z666    ==    Sc.Nextint   
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+    Error17: Falta el ';' al final.
+92         z666    = =    Sc.Nextint ;  
+    Error14: Variable no declarada aún.
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+93         z    ==    Sc.Nextint ;  
+    Error15: La asignación debe ser realizada utilizando solamente un '='.
+    Error21: La entrada de datos para int se encuentra mal indicada.
+94         z    =    Sc.Nextint ;  
+    Error21: La entrada de datos para int se encuentra mal indicada.
+95         z    =    sc.Nextint ;  
+    Error21: La entrada de datos para int se encuentra mal indicada.
+96         z    =    sc.nextint ;  
+    Error21: La entrada de datos para int se encuentra mal indicada.
+97         z    =    sc.nextInt ;  
+    Error21: La entrada de datos para int se encuentra mal indicada.
+98         z    =    sc.nextInt (;  
+    Error21: La entrada de datos para int se encuentra mal indicada.
+99         z    =    sc.nextInt (  );  
+100  
+101         c    =    sc.nextInt (  );  
+    Error18: La entrada de datos para String o char se encuentra mal indicada.
+102  
+103      PrintLn     Vamos con if y while    
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+104      PrintLn     Vamos con if y while    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+105      printLn     Vamos con if y while    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+106      println     Vamos con if y while    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+107      println  (   Vamos con if y while    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+108      println  (   "Vamos con if y while    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+109      println  (   "Vamos con if y while"    ;  
+    Error8: La sintaxis del comando de la salida de datos no es correcto.
+110      println  (   "Vamos con if y while" )   ;  
+111  
+112      If( y !=10 )  
+    Error26: La sintaxis del comando 'if' no es correcta.
+    Error26: La sintaxis del comando 'if' no es correcta.
+113      if( y !=0 ) (  
+    Error26: La sintaxis del comando 'if' no es correcta.
+114      if( y !=0 ) {  
+115  
+116      if( y !=0 ) {
+    Error32: Falta el cierre del comando 'if' de la linea 114.
+117          z = x / y;
+118          println("El resultado es : ");
+119      Else
+    Error32: Falta el cierre del comando 'if' de la linea 116.
+    Error34: El formato del comando 'else'  del comando 'if' de la linea 116 es incorrecto.
+120  
+121      }else
+    Error33: El comando 'else' no se puede encontrar sin un comando 'if' asociado.
+122  
+123      } else {
+124          println("Atenci�n! se pretende dividir por 0");
+125      }
+126      }    }
+127  
+128  
+129     if( y !=0 ) {
+130     } else {
+    Error31: Faltan los comandos dentro del 'if' de la linea 129.
+131         z = x * y;
+132     }
+133  
+134     if( y !=0 ) {
+135          z = x / y;
+136          println("El resultado es : ");
+137      }
+138  
+139      if( y !=0 ) {
+140          z = x / y;
+141          println("El resultado es : ");
+142      if( y !=0 ) {
+    Error32: Falta el cierre del comando 'if' de la linea 139.
+143      }
+    Error31: Faltan los comandos dentro del 'if' de la linea 142.
+144  
+145     if( y !=0 ) {
+146         z = x / y;
+147     } else {
+148     }
+149  
+150  
+151     else {
+    Error33: El comando 'else' no se puede encontrar sin un comando 'if' asociado.
+152         z = x * y;
+153     }
+154  
+155  
+156     if( y !=0 ) {
+157         z = x / y;
+158     } else {
+159         z = x * y;
+160     }
+161  
+162     num = 1 ; 
+163  
+164     While (num<=100) 
+    Error30: La sintaxis del comando 'while' no es correcta.
+165  
+166     num = 2 ; 
+167     while (num<=100) 
+    Error30: La sintaxis del comando 'while' no es correcta.
+168  
+169     num = 3 ; 
+170     while (num<=100) {  
+171  
+172     num = 4 ; 
+173     while (num<=100) {  
+    Error28: Falta el cierre del comando 'while' de la linea 170.
+174     }
+    Error27: Faltan los comandos dentro del 'while' de la linea 173.
+175  
+176     num = 5 ; 
+177     while (num<=100) {  
+178       num=num+1;
+179  
+180     num = 6 ; 
+181     while (num<=100) {  
+    Error28: Falta el cierre del comando 'while' de la linea 177.
+182       num=num+1;
+183     }
+184    
+185     num = 999 ;     
+186  
+187      // fin del programa
+188  
+189      }
+    Error35: Comando Java inválido.
+190    }   
+    Error35: Comando Java inválido.
+191   
+192     // Fin.
